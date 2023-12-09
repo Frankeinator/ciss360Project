@@ -1,0 +1,14 @@
+mode 0: uninteractive mode
+      Spim::history.push_back(input);
+      Spim::addressHistory.push_back(Spim::inputAddress);
+      Convertor::incrHex();
+
+mode 1: interactive mode
+     Spim::history.push_back(input);
+     Instructions::li(R, arr[1], arr[2]);
+     Spim::addressHistory.push_back(Spim::inputAddress);
+     Convertor::incrHex();
+
+mode 2: runProgram/Jumping
+     Instructions::li(R, arr[1], arr[2]);
+     

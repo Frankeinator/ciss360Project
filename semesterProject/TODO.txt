@@ -1,0 +1,21 @@
+1-10 from picture of requirements
+
+1 - DONE
+2 - DONE
+3 - PART DONE - need to be able to show reg values
+4 - DONE
+5 - DONE
+6 - NOT STARTED - need to figure out how to translate to machine code
+7 - NOT DONE - syscall in progress, nothing else tho
+8 - done i think???? user can input any instruction except jump/branching
+9 - again branching and jumps not done, branching I have an idea on how to do, jumps idk bro
+10 - DONE
+
+
+LOOK AT PRIORITYCHECK MODE 2 FOR WHAT TODO NEXT
+
+DELETE THESE BLOCKS
+spim.cpp LINE 228 ENTIRE isValidInstruction -- Not used anymore
+
+
+Cleanup comments when done
