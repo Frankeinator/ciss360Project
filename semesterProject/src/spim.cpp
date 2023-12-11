@@ -39,7 +39,7 @@
 
 //All info about these static variables is in spim.h at the bottom
 
-//----------static variables------------------\\
+//----------static variables------------------
 bool Spim::running = true;
 
 std::vector < std::string > Spim::validRegs =
@@ -65,7 +65,7 @@ std::string Spim::inputAddress = "0x00400000";
 std::string Spim::dataAddress  = "0x10010000";
 
 
-//---------Methods---------------\\
+//---------Methods---------------
 void Spim::run(int mode)
 {
     std::cout << "Alex Franke SPIM simulator\nEnter ? for help\n" <<
